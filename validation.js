@@ -47,5 +47,5 @@ function validateForm() {
     document.getElementById('confirmPasswordError').textContent = "";
   }
 
-  return isValid; // If validation fails, form won't submit
+  return isValid; // Prevents form submission if invalid
 }
